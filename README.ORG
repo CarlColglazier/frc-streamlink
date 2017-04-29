@@ -1,0 +1,16 @@
+#+TITLE: FRC➡️Streamlink
+#+AUTHOR: Carl Colglazier
+#+DATE: <2017-04-28 Fri>
+
+When watching live streams of [[https://www.firstinspires.org/robotics/frc][FIRST Robotics Competition]] events, I
+often use [[https://streamlink.github.io/][Streamlink]] to pipe the video into my media player of choice.
+I wanted a way to open the streams quickly without ever having to
+manually find the link to the stream.
+
+** Installation
+
+Install the prerequisite libraries listed in =requirements.txt=:
+
+#+BEGIN_SRC sh
+pip install -r requirements.txt
+#+END_SRC
