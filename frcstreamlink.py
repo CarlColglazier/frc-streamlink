@@ -44,6 +44,9 @@ def stream_list():
     """
     i = 1
     events = get_live_events()
+    if len(events) == 0:
+        print("No streams currently online")
+        sys.exit()
     for event in events:
         print("{:-2}. {:10} - {}".format(i, event.key, event.name))
         i += 1
