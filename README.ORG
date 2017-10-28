@@ -7,6 +7,8 @@ often use [[https://streamlink.github.io/][Streamlink]] to pipe the video into m
 I wanted a way to open the streams quickly without ever having to
 manually find the link to the stream.
 
+[[./demo.gif]]
+
 ** Installation
 
 Install the prerequisite libraries listed in =requirements.txt=:
